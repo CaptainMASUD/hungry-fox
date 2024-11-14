@@ -128,7 +128,7 @@ export default function Contactus() {
           <div className="flex justify-between items-center">
             <div className="space-y-2">
               <p className="flex items-center"><FaPhone className="mr-2" /> +1 (555) 123-4567</p>
-              <p className="flex items-center"><FaEnvelope className="mr-2" /> support@example.com</p>
+              <p className="flex items-center"><FaEnvelope className="mr-2" /> hungry-fox@gmail.com</p>
             </div>
             <div className="flex space-x-4">
               <FaTwitter className="text-2xl hover:text-blue-400 cursor-pointer" />
