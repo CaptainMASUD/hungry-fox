@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel } from 'flowbite-react'
+import { Button, Carousel } from 'flowbite-react'
 import { FiShoppingCart, FiHeart } from 'react-icons/fi'
 import banner1 from "../../Images/Banner Images/Black Orange Modern Food Promotion Banner.png" // Make sure the file extension is correct
 
@@ -18,14 +18,14 @@ function AddsBanner() {
               <h2 className="text-4xl font-bold">Pizza</h2>
               <p className="text-lg">Category: Italian | Price: &#2547; 999/-</p>
               <div className="flex justify-center space-x-4">
-                <button className="text-white bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg flex items-center">
+                <Button gradientDuoTone='purpleToBlue' outline className="text-white bg-blue-600 hover:bg-blue-700  rounded-lg flex items-center">
                   <FiHeart size={20} className="mr-2" />
                   Like
-                </button>
-                <button className="text-white bg-green-600 hover:bg-green-700 px-4 py-2 rounded-lg flex items-center">
+                </Button>
+                <Button gradientDuoTone='redToYellow' outline className="text-white bg-green-600 hover:bg-green-700  rounded-lg flex items-center">
                   <FiShoppingCart size={20} className="mr-2" />
                   Add to Cart
-                </button>
+                </Button>
               </div>
             </div>
           </div>
