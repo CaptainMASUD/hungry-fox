@@ -70,7 +70,7 @@ function SignIn() {
           <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>Hungry</span><GiFox className='mt-2'/> 
           </Link>
           <p className='text-sm mt-5'>
-            This website is built to see the updates of JatioShongShong's updates.
+            This website is built to see the updates of Food's.
             Sign in using your username and password.
           </p>
         </div>

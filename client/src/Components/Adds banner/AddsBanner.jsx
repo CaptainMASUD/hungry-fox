@@ -2,6 +2,9 @@ import React from 'react'
 import { Button, Carousel } from 'flowbite-react'
 import { FiShoppingCart, FiHeart } from 'react-icons/fi'
 import banner1 from "../../Images/Banner Images/Black Orange Modern Food Promotion Banner.png" // Make sure the file extension is correct
+import banner2 from "../../Images/Banner Images/banner2.png" // Make sure the file extension is correct
+import banner3 from "../../Images/Banner Images/banner3.png" // Make sure the file extension is correct
+import banner4 from "../../Images/Banner Images/banner4.png" // Make sure the file extension is correct
 
 function AddsBanner() {
   return (
@@ -34,7 +37,7 @@ function AddsBanner() {
         {/* Slide 2 */}
         <div
           className="w-full h-full bg-cover bg-center relative"
-          style={{ backgroundImage: 'url(https://via.placeholder.com/1600x900)' }}
+          style={{ backgroundImage: `url(${banner2})` }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
             <div className="text-center text-white space-y-4">
@@ -57,7 +60,7 @@ function AddsBanner() {
         {/* Slide 3 */}
         <div
           className="w-full h-full bg-cover bg-center relative"
-          style={{ backgroundImage: 'url(https://via.placeholder.com/1600x900)' }}
+          style={{ backgroundImage: `url(${banner3})` }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
             <div className="text-center text-white space-y-4">
@@ -80,7 +83,7 @@ function AddsBanner() {
         {/* Slide 4 */}
         <div
           className="w-full h-full bg-cover bg-center relative"
-          style={{ backgroundImage: 'url(https://via.placeholder.com/1600x900)' }}
+          style={{ backgroundImage: `url(${banner4})` }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
             <div className="text-center text-white space-y-4">
