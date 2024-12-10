@@ -12,7 +12,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors({
-  origin: 'http://localhost:5174', // Your frontend origin
+  origin: 'http://localhost:5173', // Your frontend origin
   credentials: true, // Allow credentials to be sent
 }));
 app.use(cookieParser())

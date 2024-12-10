@@ -5,9 +5,9 @@ import { Card } from 'flowbite-react';
 
 function AboutUs() {
   const partners = [
-    { name: 'Ayan', role: 'CEO', image: 'https://scontent.fdac41-1.fna.fbcdn.net/v/t39.30808-6/454467903_3701996050042630_3647676458570200956_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEugYkhPJNPIYbw-MQgubWdzwNOr6LzSOXPA06vovNI5TyJdCCZ2c3OBKL_Tk_i2l1hvnF2g4XZsRWLmRJtrAyT&_nc_ohc=r0uhO7uEKCoQ7kNvgGYZbLf&_nc_zt=23&_nc_ht=scontent.fdac41-1.fna&_nc_gid=A2gYREXmaGg12ZfxG_111iv&oh=00_AYBvF4MlhLHJlWOD2m_jdkbV3f9E_Wnuxy3nBo1FmlPcgw&oe=6733DFCF' },
+    { name: 'Ayan', role: 'CEO', image: 'https://scontent.fdac142-1.fna.fbcdn.net/v/t39.30808-6/468724634_3807619976146903_7858597995336748972_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHstqyNK1SHNvEq9wAFPZxaBOLirYlHK-EE4uKtiUcr4ZWTMvz8t9YXg_yAdEvVLRXQmoVua4hMmbYd6ONcW6t5&_nc_ohc=0xY64eswtYMQ7kNvgF0sgyv&_nc_zt=23&_nc_ht=scontent.fdac142-1.fna&_nc_gid=ArFsJ8c3FYbtizkjFX0bEYS&oh=00_AYANZeHbPYj32739WYILYH4evdTdiIn4aSLm5bF5AIQO1g&oe=675DBEA6' },
     { name: 'Masud', role: 'COO', image: 'https://avatars.githubusercontent.com/u/108082819?v=4' },
-    { name: 'Mitu', role: 'CFO', image: 'https://i.pinimg.com/736x/77/b1/e4/77b1e41effd5a934f07ba7d6a8719544.jpg' },
+    { name: 'Mitu', role: 'CFO', image: 'https://wallpapers.com/images/hd/muslim-girl-hijab-cartoon-driv1bhmbawo0lac.jpg' },
   ];
 
   return (
